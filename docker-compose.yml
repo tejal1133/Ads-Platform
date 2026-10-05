@@ -22,6 +22,7 @@ services:
       retries: 10
 
   web:
+    platform: linux/amd64
     build: .
     container_name: ads-platform
 
